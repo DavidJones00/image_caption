@@ -16,7 +16,7 @@ Including caption generation [demo on web browser](https://milhidaka.github.io/c
 # Usage (only caption generation)
 
 ## Simply doing caption generation using pre-trained model (ResNet-50 + MSCOCO)
-Download [caption_gen_resnet.model](https://drive.google.com/file/d/0BxKvBdxU_LchXzJqRTZBMU5SUVE/view?usp=sharing) (45MB) and [dataset_coco.pkl](https://drive.google.com/file/d/0BxKvBdxU_LchNmhmVHBRZ1laUkk/view?usp=sharing) (28MB).
+Please download dataset and train by yourself by looking at usage (training model using MSCOCO dataset) below.
 
 ```
 $ python src/generate_caption.py -s dataset_coco.pkl -m caption_gen_resnet.model -l image/list.txt -g 0
